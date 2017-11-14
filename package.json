@@ -1,0 +1,31 @@
+{
+  "name": "clashbattle",
+  "version": "1.0.0",
+  "description": "Aspiring online mobile game.",
+  "main": "index.js",
+  "dependencies": {
+    "phaser-ce": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "expose-loader": "^0.7.3",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeblethephilgray/clashbattle.git"
+  },
+  "author": "knoebel and gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeblethephilgray/clashbattle/issues"
+  },
+  "homepage": "https://github.com/joeblethephilgray/clashbattle#readme"
+}
